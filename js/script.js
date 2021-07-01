@@ -54,7 +54,7 @@ if (age < 18) {
         "€";
 
 } else if (age >= 65) {
-    ticket.innerHTML = "Il prezzo è:" + " " + finalPriceO65 + " " +
+    ticket.innerHTML = "Il prezzo è:" + " " + fullPrice + " " +
         "€";
     discount.innerHTML = "Lo sconto è:" + " " + discount40 + " " +
         "€";
