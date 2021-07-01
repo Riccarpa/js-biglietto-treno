@@ -7,11 +7,16 @@ va applicato uno sconto del 40% per gli over 65.
 L'output del prezzo finale va stampato in forma umana (con massimo due decimali, per indicare centesimi sul prezzo). Questo richiederà un minimo di ricerca.
 */
 
-
 // km and age
 var km = parseInt(prompt("numero di chilometri che vuole percorrere"));
-
 var age = parseInt(prompt("età del passeggero"));
+
+// age&number control
+
+if (isNaN(km) || isNaN(age)) {
+    alert('non hai inserito due numeri');
+    window.location.reload(); //! NON SI FA
+}
 
 //tariff
 var priceKm = "0.21";
