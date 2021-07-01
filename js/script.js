@@ -17,6 +17,10 @@ if (isNaN(km) || isNaN(age)) {
     alert('non hai inserito due numeri');
     window.location.reload(); //! NON SI FA
 }
+if ((km < 0) || (age < 0)) {
+    alert('hai inserito numeri negativi');
+    window.location.reload(); //! NON SI FA
+}
 
 //tariff
 var priceKm = "0.21";
