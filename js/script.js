@@ -23,7 +23,8 @@ if ((km < 0) || (age < 0)) {
 }
 
 //tariff
-var priceKm = "0.21";
+var priceKm = 0.21;
+console.log(typeof priceKm);
 var fullPrice = km * priceKm;
 
 //discount
